@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="KO">
+
+<head>
+    <meta charset="UTF-8">
+    <title>라코스테 코리아 플래그십</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon-32x32.png">
+    <!--JS CSS-->
+    <script src="js/jquery-3.5.1.js"></script>
+    <!--SLICK SLIDE-->
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <script src="js/slick.js"></script>
+    <!--FONTAWESOME-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="js/all.min.js"></script>
+    <!--스크롤 매직-->
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/debug.addIndicators.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <!--FULLPAGE JS-->
+    <script src="js/fullpage.js"></script>
+    <!--FULLPAGE CSS-->
+    <link rel="stylesheet" href="css/fullpage.css">
+    <!--LACOSTE CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--LACOSTE JS-->
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <!--헤더-->
+    <div class="container header">
+        <div class="inner1200 header1">
+            <div class="header1-icon cell2">
+                <a href="#" title="로그인">LOGIN</a>
+                <a href="#" title="마이페이지">MYPAGE</a>
+                <a href="#" title="매장찾기">STORE</a>
+                <a href="#" title="KOR">KOR</a>
+            </div>
+        </div>
+        <div class="inner1200 header2">
+            <div class="header-logo cell"><a href="#">
+                    <img src="./img/header/header-logo.png" alt="">
+                </a>
+            </div>
+            <ul class="menu-box1 cell row">
+                <li class="cell"><a href="#">NEW</a></li>
+                <li class="cell"><a href="#">MEN</a></li>
+                <li class="cell"><a href="#">WOMEN</a></li>
+                <li class="cell"><a href="#">KID</a></li>
+                <li class="cell"><a href="#">SALE</a></li>
+                <li class="cell"><a href="#">My Lacoste Polo</a></li>
+                <li class="cell"><a href="#">Lacoste Inside</a></li>
+            </ul>
+            <div class="header-search cell2">
+                <form name="findstore" method="post" action="#">
+                    <input id="search" type="search" placeholder="검색">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                </form>
+            </div>
+        </div>
+        <div class="nav-menu-wrap">
+            <div style="display: none;" class="menu-box2"></div>
+            <div class="menu-box2 row">
+                <div class="menu-1 cell">
+                    <h1 class="cell2">MEN</h1>
+                    <div class="thema-wrap cell2">
+                        <h2 class="cell2">테마로 쇼핑하기</h2>
+                        <div class="thema-box cell2 row">
+                            <div class="rad-box1 cell"><a href="#">신상품 컬렉션</a></div>
+                            <div class="rad-box1 cell"><a href="#">패밀리 룩</a></div>
+                            <div class="rad-box1 cell"><a href="#">경이로운 편안함</a></div>
+                            <div class="rad-box1 cell"><a href="#">클래식</a></div>
+                            <div class="rad-box1 cell"><a href="#">온라인 베스트</a></div>
+                            <div class="rad-box1 cell"><a href="#">온라인 단독</a></div>
+                            <div class="rad-box1 cell"><a href="#">패션쇼 컬렉션</a></div>
+                            <div class="rad-box1 cell"><a href="#">라코스테 스포츠</a></div>
+                            <div class="rad-box1 cell"><a href="#">라코스테 라이브</a></div>
+                        </div>
+                    </div>
+                    <div class="menu-imgbox cell2">
+                        <div class="img-box cell">
+                            <img src="./img/header/men1.webp" alt="">
+                        </div>
+                        <div class="img-box cell">
+                            <img src="./img/header/men2.webp" alt="">
+                        </div>
+                        <div class="img-box cell">
+                            <img src="./img/header/men3.webp" alt="">
+                        </div>
+                        <div class="img-box cell">
+                            <img src="./img/header/men4.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <ul class="menu-2 cell">
+                    <li class="cell"><a href="#">의류</a>
+                        <ul>
+                            <li><a href="#">폴로</a></li>
+                            <li><a href="#">셔츠</a></li>
+                            <li><a href="#">티셔츠</a></li>
+                            <li><a href="#">니트와 스웨터</a></li>
+                            <li><a href="#">후드와 스웻셔츠</a></li>
+                            <li><a href="#">자켓과 코트</a></li>
+                            <li><a href="#">바지와 반바지</a></li>
+                            <li><a href="#">스포츠웨어</a></li>
+                        </ul>
+                    </li>
+                    <li class="cell"><a href="#">신발</a>
+                        <ul>
+                            <li><a href="#">스포츠</a></li>
+                            <li><a href="#">캐주얼</a></li>
+                        </ul>
+                    </li>
+                    <li class="cell"><a href="#">엑세서리</a>
+                        <ul>
+                            <li><a href="#">모자</a></li>
+                            <li><a href="#">스카이프와 장갑</a></li>
+                            <li><a href="#">언더웨어</a></li>
+                            <li><a href="#">양말</a></li>
+                        </ul>
+                    </li>
+                    <li class="cell"><a href="#">레더굿</a>
+                        <ul>
+                            <li><a href="#">가방</a></li>
+                            <li><a href="#">지갑</a></li>
+                            <li><a href="#">벨트</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-box2 row">
+                <div class="menu-1 cell">
+                    <h1 class="cell2">WOMEN</h1>
+                    <div class="thema-wrap cell2">
+                        <h2 class="cell2">테마로 쇼핑하기</h2>
+                        <div class="thema-box cell2 row">
+                            <div class="rad-box1 cell"><a href="#">신상품 컬렉션</a></div>
+                            <div class="rad-box1 cell"><a href="#">패밀리 룩</a></div>
+                            <div class="rad-box1 cell"><a href="#">경이로운 편안함</a></div>
+                            <div class="rad-box1 cell"><a href="#">클래식</a></div>
+                            <div class="rad-box1 cell"><a href="#">온라인 베스트</a></div>
+                            <div class="rad-box1 cell"><a href="#">온라인 단독</a></div>
+                            <div class="rad-box1 cell"><a href="#">패션쇼 컬렉션</a></div>
+                            <div class="rad-box1 cell"><a href="#">라코스테 스포츠</a></div>
+                            <div class="rad-box1 cell"><a href="#">라코스테 라이브</a></div>
+                        </div>
+                    </div>
+                    <div class="menu-imgbox cell2">
+                        <div class="img-box cell">
+                            <img src="./img/header/women1.webp" alt="">
+                        </div>
+                        <div class="img-box cell">
+                            <img src="./img/header/women2.webp" alt="">
+                        </div>
+                        <div class="img-box cell">
+                            <img src="./img/header/women3.webp" alt="">
+                        </div>
+                        <div class="img-box cell">
+                            <img src="./img/header/women4.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <ul class="menu-2 row cell">
+                    <li class="cell"><a href="#">의류</a>
+                        <ul>
+                            <li><a href="#">폴로</a></li>
+                            <li><a href="#">셔츠</a></li>
+                            <li><a href="#">티셔츠</a></li>
+                            <li><a href="#">스웨터와 스웻셔츠</a></li>
+                            <li><a href="#">드레스와 스커트</a></li>
+                            <li><a href="#">바지와 반바지</a></li>
+                            <li><a href="#">자켓과 코트</a></li>
+                            <li><a href="#">스포츠웨어</a></li>
+                        </ul>
+                    </li>
+                    <li class="cell"><a href="#">신발</a>
+                        <ul>
+                            <li><a href="#">스포츠</a></li>
+                            <li><a href="#">캐주얼</a></li>
+                        </ul>
+                    </li>
+                    <li class="cell"><a href="#">엑세서리</a>
+                        <ul>
+                            <li><a href="#">모자</a></li>
+                            <li><a href="#">스카이프</a></li>
+                            <li><a href="#">양말</a></li>
+                        </ul>
+                    </li>
+                    <li class="cell"><a href="#">레더굿</a>
+                        <ul>
+                            <li><a href="#">가방</a></li>
+                            <li><a href="#">지갑과 잡화</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-box2 row">
+                <div class="menu-1 cell">
+                    <h1 class="cell2">KID</h1>
+                    <div class="thema-wrap cell2">
+                        <h2 class="cell2">테마로 쇼핑하기</h2>
+                        <div class="thema-box cell2 row">
+                            <div class="rad-box1 cell"><a href="#">신상품 컬렉션</a></div>
+                            <div class="rad-box1 cell"><a href="#">패밀리 룩</a></div>
+                            <div class="rad-box1 cell"><a href="#">키즈 남아</a></div>
+                            <div class="rad-box1 cell"><a href="#">키즈 여아</a></div>
+                        </div>
+                    </div>
+                    <div class="menu-imgbox cell2">
+                        <div class="img-box cell">
+                            <img src="./img/header/kid1.webp" alt="">
+                        </div>
+                        <div class="img-box cell">
+                            <img src="./img/header/kid2.webp" alt="">
+                        </div>
+                        <div class="img-box cell">
+                            <img src="./img/header/kid3.webp" alt="">
+                        </div>
+                        <div class="img-box cell">
+                            <img src="./img/header/kid4.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <ul class="menu-2 row cell">
+                    <li class="cell"><a href="#">남아</a>
+                        <ul>
+                            <li><a href="#">남아 의류 전체</a></li>
+                            <li><a href="#">FW21 남아 의류</a></li>
+                        </ul>
+                    </li>
+                    <li class="cell"><a href="#">여아</a>
+                        <ul>
+                            <li><a href="#">여아 의류 전체</a></li>
+                            <li><a href="#">FW21 여아 의류</a></li>
+                        </ul>
+                    </li>
+                    <li class="cell"><a href="#">키즈 신발</a>
+                        <ul>
+                            <li><a href="#">키즈 신발 전체</a></li>
+                            <li><a href="#">FW21 키즈 신발</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-box2 row">
+                <div class="menu-1 cell">
+                    <h1 class="cell2">SALE</h1>
+                </div>
+                <ul class="menu-2 calc3 row cell">
+                    <li class="cell"><a href="#">FW 시즌오프 전체</a>
+                        <ul>
+                            <li><a href="#">FW 시즌오프 남성</a></li>
+                            <li><a href="#">FW 시즌오프 여성</a></li>
+                            <li><a href="#">FW 시즌오프 키즈</a></li>
+                            <li><a href="#">FW 시즌오프 라이브</a></li>
+                            <li><a href="#">FW 시즌오프 스포츠</a></li>
+                        </ul>
+                    </li>
+                    <li class="cell"><a href="#">다시 만나는 라스트 시즌</a>
+                        <ul>
+                            <li><a href="#">다시 만나는 라스트 시즌 남성</a></li>
+                            <li><a href="#">다시 만나는 라스트 시즌 여성</a></li>
+                            <li><a href="#">다시 만나는 라스트 시즌 키즈</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div style="display: none;" class="menu-box2"></div>
+            <div class="menu-box2 row">
+                <div class="menu-1 cell">
+                    <h1 class="cell2">Lacoste Inside</h1>
+                </div>
+                <ul class="menu-2 calc3 row cell">
+                    <li class="cell"><a href="#">BRAND</a>
+                        <ul>
+                            <li><a href="#">르네 라코스테</a></li>
+                            <li><a href="#">라코스테 스토리</a></li>
+                            <li><a href="#">라코스테의 비밀</a></li>
+                        </ul>
+                    </li>
+                    <li class="cell"><a href="#">STYLE</a>
+                        <ul>
+                            <li><a href="#">패션쇼</a></li>
+                            <li><a href="#">LACOSTE X Brands</a></li>
+                            <li><a href="#">#MyLacostePolo</a></li>
+                        </ul>
+                    </li>
+                    <li class="cell"><a href="#">L!VE &#38; SPORTS</a>
+                        <ul>
+                            <li><a href="#">Sport Shop</a></li>
+                            <li><a href="#">L!VE Shop</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!--모바일헤더-->
+    <div class="mobile-header-wrap">
+        <div class="mobile-header">
+            <span id="menu"><i class="fas fa-bars"></i></span>
+        </div>
+        <menu>
+            <div class="logo">
+                <div class="header-logo cell"><a href="#">
+                        <img src="./img/header/header-logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <span id="close-menu"><i class="fas fa-times"></i></span>
+            <div class="container">
+                <div class="box">
+                    <ul>
+                        <li><a href="#">NEW</a></li>
+                        <li><a href="#">MEN</a></li>
+                        <li><a href="#">WOMEN</a></li>
+                        <li><a href="#">Magazine</a></li>
+                        <li><a href="#">KID</a></li>
+                        <li><a href="#">SALE</a></li>
+                        <li><a href="">My LACOSTE POLO</a></li>
+                        <li><a href="#">LACOSTE INSIDE</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Log In</a> | <a href="#">My Page</a></li>
+                        <li><a href="#">STORE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </menu>
+    </div>
+
+
+    <div id="fullpage">
+        <!--메인-->
+        <div class="section container">
+            <div class="main">
+                <img class="" src="./img/main/bg.jpg" alt="">
+                <img class="mobile-img" src="img/main/mobile.jpg">
+
+            </div>
+            <div class="logo-ani is-animated">
+                <img src="./img/main/main_ac.png" alt="">
+            </div>
+            <div class="main-wrap">
+                <h1 class="rubberBand">Lacoste</h1>
+                <p class="">THERE WAS ONCE A CROCODILE</p>
+            </div>
+            <div class="scroll-box">
+                <span class="scroll-down">
+                    <p>Scroll down</p>
+                    <div class="down-img"></div>
+                </span>
+            </div>
+        </div>
+        <!--설날 선물-->
+        <div class="section container sec1">
+            <div class="cell fade sec1-left">
+                <div><img class="" src="./img/sec1/1.png" alt=""></div>
+                <div><img class="" src="./img/sec1/2.png" alt=""></div>
+            </div>
+            <div class="inner1200 cell sec1-right">
+                <a href="#">
+                    <div class="sec1-right-box">
+                        <p>경축년, 새해 복 많이 받으세요!</p>
+                        <h1>라코스테가 드리는 설날 선물</h1>
+                        <h2>&#60;2021BOX&#62;을 장바구니에 입력하세요!<br>20만원 이상 구매 시, 2만원 할인 혜택을 드립니다.</h2>
+                        <div class="arrow"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--신상품 컬렉션-->
+        <div class="section container sec2">
+            <video muted="muted" width="100%" height="auto" loop="loop" autoplay="autoplay">
+                <source src="./img/sec2/main.webm" type="video/mp4">
+            </video>
+            <div class="sec2-txt">
+                <h1>2021 신상품 컬렉션</h1>
+                <h2>2021 신상품 구매 시 [ LUCKY7 ] 코드를 입력하시면 멤버십 전용 7% 할인 혜택을 드립니다.</h2>
+                <span class="full-btn0"><a href="#">구매하기</a></span>
+            </div>
+        </div>
+        <div class="section container sec2-1">
+            <div class="inner1200 sec2-1-wrap">
+                <div class="sec2-left">
+                    <img src="./img/sec2/s2.webp" alt="">
+                    <div class="sec2-1-txt">
+                        <h1>레더굿 신상품</h1>
+                        <p>라코스테 시그니처 레더굿</p>
+                        <span class="full-btn2-1"><a href="#">구매하기</a></span>
+                    </div>
+                </div>
+                <div class="sec2-right">
+                    <img src="./img/sec2/s1.webp" alt="">
+                    <div class="sec2-2-txt">
+                        <h1>신발 신상품</h1>
+                        <p>새해에 내딛는 첫 발걸음</p>
+                        <span class="full-btn"><a href="#">구매하기</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--세일-->
+        <div class="section container sec3">
+            <div class="slide">
+                <div class="inner1200 slide-box1">
+                    <div class="sec3-box">
+                        <p>Up to 30% OFF</p>
+                        <h1>LACOSTE SEASON OFF SALE</h1>
+                        <div class="full-btn2"><a href="#">전체제품 보러가기</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide slide2">
+                <div class="inner1200 slide-box2">
+                    <div class="sec3-left cell">
+                        <div><img src="./img/sec3/s1.webp" alt=""></div>
+                        <div><img src="./img/sec3/s05.webp" alt=""></div>
+                        <div><img src="./img/sec3/s06.webp" alt=""></div>
+                    </div>
+                    <div class="sec3-right cell">
+                        <div class="sec3-txt">
+                            <p>Click &#38; 보러가기!</p>
+                            <h1>FW20 시즌오프 남성</h1>
+                            <h2>보다 더 합리적인 가격으로 만나는 시즌 오프 세일!</h2>
+                        </div>
+                        <div class="sec3-wrap">
+                            <div class="sec3-slide"><a href="#">
+                                    <div class="box">
+                                        <div class="img-box">
+                                            <img src="./img/sec3/s2.webp" alt="">
+                                            <p>+ 1 colour</p>
+                                        </div>
+                                        <div class="box_">
+                                            <span class="color">30% 세일</span>
+                                            <span class="color2">신규 할인 제품!</span>
+                                            <p>[남성] 기본 후디집업 스웻셔츠</p>
+                                            <span class="price">111,300 won</span>
+                                            <span class="prices">159.000 won</span>
+                                        </div>
+                                    </div>
+                                </a></div>
+                            <div class="sec3-slide"><a href="#">
+                                    <div class="box">
+                                        <div class="img-box">
+                                            <img src="./img/sec3/s3.webp" alt="">
+                                            <p>+ 1 colour</p>
+                                        </div>
+                                        <div class="box_">
+                                            <span class="color">30% 세일</span>
+                                            <span class="color2">신규 할인 제품!</span>
+                                            <p>[남성] 기본 라운드 풀오버 스웻 셔츠</p>
+                                            <span class="price">101,500 won</span>
+                                            <span class="prices">145.000 won</span>
+                                        </div>
+                                    </div>
+                                </a></div>
+                            <div class="sec3-slide"><a href="#">
+                                    <div class="box">
+                                        <div class="img-box">
+                                            <img src="./img/sec3/s4.webp" alt="">
+                                            <p>+ 1 colour</p>
+                                        </div>
+                                        <div class="box_">
+                                            <span class="color">30% 세일</span>
+                                            <p>[남성] 3IN1 변형 맥코트</p>
+                                            <span class="price">447,300 won</span>
+                                            <span class="prices">639.000 won</span>
+                                        </div>
+                                    </div>
+                                </a></div>
+                            <div class="sec3-slide"><a href="#">
+                                    <div class="box">
+                                        <div class="img-box">
+                                            <img src="./img/sec3/s5.webp" alt="">
+                                            <p>+ 1 colour</p>
+                                        </div>
+                                        <div class="box_">
+                                            <span class="color">30% 세일</span>
+                                            <p>[남성] 경량 방수 숏 패딩 자켓</p>
+                                            <span class="price">377,300 won</span>
+                                            <span class="prices">539.000 won</span>
+                                        </div>
+                                    </div>
+                                </a></div>
+                            <div class="sec3-slide"><a href="#">
+                                    <div class="box">
+                                        <div class="img-box">
+                                            <img src="./img/sec3/s6.webp" alt="">
+                                            <p>+ 1 colour</p>
+                                        </div>
+                                        <div class="box_">
+                                            <span class="color">30% 세일</span>
+                                            <span class="color2">신규 할인 제품!</span>
+                                            <p>[남성] 후디 풀오버 스웻셔츠</p>
+                                            <span class="price">104,300 won</span>
+                                            <span class="prices">149.000 won</span>
+                                        </div>
+                                    </div>
+                                </a></div>
+                        </div>
+                        <div class="arrow2">
+                            <img src="../img/slide/arrow-08.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide slide2">
+                <div class="inner1200 slide-box2">
+                    <div class="sec3-left cell">
+                        <div><img src="./img/sec3/s7.jpg" alt=""></div>
+                        <div><img src="./img/sec3/s011.webp" alt=""></div>
+                        <div><img src="./img/sec3/s012.jpg" alt=""></div>
+                    </div>
+                    <div class="sec3-right cell">
+                        <div class="sec3-txt">
+                            <p>Click &#38; 보러가기!</p>
+                            <h1>FW20 시즌오프 여성</h1>
+                            <h2>보다 더 합리적인 가격으로 만나는 시즌 오프 세일!</h2>
+                        </div>
+                        <div class="sec3-wrap">
+                            <div class="sec3-slide"><a href="#">
+                                    <div class="box">
+                                        <div class="img-box">
+                                            <img src="./img/sec3/s8.webp" alt="">
+                                            <p>+ 1 colour</p>
+                                        </div>
+                                        <div class="box_">
+                                            <span class="color">30% 세일</span>
+                                            <p>[여성] 리버시블 패딩 롱점퍼</p>
+                                            <span class="price">419,300 won</span>
+                                            <span class="prices">599.000 won</span>
+                                        </div>
+                                    </div>
+                                </a></div>
+                            <div class="sec3-slide"><a href="#">
+                                    <div class="box">
+                                        <div class="img-box">
+                                            <img src="./img/sec3/s9.webp" alt="">
+                                            <p>+ 1 colour</p>
+                                        </div>
+                                        <div class="box_">
+                                            <span class="color">30% 세일</span>
+                                            <p>[여성] 후드야상 구스다운 점퍼</p>
+                                            <span class="price">461,300 won</span>
+                                            <span class="prices">659.000 won</span>
+                                        </div>
+                                    </div>
+                                </a></div>
+                            <div class="sec3-slide"><a href="#">
+                                    <div class="box">
+                                        <div class="img-box">
+                                            <img src="./img/sec3/s10.webp" alt="">
+                                            <p>+ 1 colour</p>
+                                        </div>
+                                        <div class="box_">
+                                            <span class="color">30% 세일</span>
+                                            <p>[여성] 푸퍼 다운 점퍼</p>
+                                            <span class="price">491,300 won</span>
+                                            <span class="prices">559.000 won</span>
+                                        </div>
+                                    </div>
+                                </a></div>
+                            <div class="sec3-slide"><a href="#">
+                                    <div class="box">
+                                        <div class="img-box">
+                                            <img src="./img/sec3/s11.webp" alt="">
+                                            <p>+ 1 colour</p>
+                                        </div>
+                                        <div class="box_">
+                                            <span class="color">60% 세일</span>
+                                            <p>LCST 웨이스트백</p>
+                                            <span class="price">71,600 won</span>
+                                            <span class="prices">179.000 won</span>
+                                        </div>
+                                    </div>
+                                </a></div>
+                            <div class="sec3-slide"><a href="#">
+                                    <div class="box">
+                                        <div class="img-box">
+                                            <img src="./img/sec3/s12.webp" alt="">
+                                            <p>+ 2 colour</p>
+                                        </div>
+                                        <div class="box_">
+                                            <span class="color">30% 세일</span>
+                                            <span class="color2">신규 할인 제품!</span>
+                                            <p>[여성] 패션쇼 솔리드 스트레치 코튼 폴로 셔츠</p>
+                                            <span class="price">139,300 won</span>
+                                            <span class="prices">199.000 won</span>
+                                        </div>
+                                    </div>
+                                </a></div>
+                        </div>
+                        <div class="arrow2">
+                            <img src="../img/slide/arrow-08.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide slide2">
+                <div class="inner1200 slide-box2">
+                    <div class="sec3-left cell">
+                        <div><img src="./img/sec3/s13.jpg" alt=""></div>
+                        <div><img src="./img/sec3/s013.jpg" alt=""></div>
+                        <div><img src="./img/sec3/s014.jpg" alt=""></div>
+                    </div>
+                    <div class="sec3-right cell">
+                        <div class="sec3-txt">
+                            <p>Click &#38; 보러가기!</p>
+                            <h1>FW20 시즌오프 키즈</h1>
+                            <h2>보다 더 합리적인 가격으로 만나는 시즌 오프 세일!</h2>
+                        </div>
+                        <div class="sec3-wrap">
+                            <div class="sec3-slide"><a href="#">
+                                    <div class="box">
+                                        <div class="img-box">
+                                            <img src="./img/sec3/s14.jpg" alt="">
+                                            <p>+ 1 colour</p>
+                                        </div>
+                                        <div class="box_">
+                                            <span class="color">30% 세일</span>
+                                            <p>[키즈] 스트라이프 울 코튼 스웨터</p>
+                                            <span class="price">83,300 won</span>
+                                            <span class="prices">119.000 won</span>
+                                        </div>
+                                    </div>
+                                </a></div>
+                            <div class="sec3-slide"><a href="#">
+                                    <div class="box">
+                                        <div class="img-box">
+                                            <img src="./img/sec3/s15.webp" alt="">
+                                            <p>+ 1 colour</p>
+                                        </div>
+                                        <div class="box_">
+                                            <span class="color">30% 세일</span>
+                                            <p>[키즈] 배색 풀오버 플리스 스웻셔츠</p>
+                                            <span class="price">90,300 won</span>
+                                            <span class="prices">129.000 won</span>
+                                        </div>
+                                    </div>
+                                </a></div>
+                            <div class="sec3-slide"><a href="#">
+                                    <div class="box">
+                                        <div class="img-box">
+                                            <img src="./img/sec3/s16.webp" alt="">
+                                            <p>+ 1 colour</p>
+                                        </div>
+                                        <div class="box_">
+                                            <span class="color">30% 세일</span>
+                                            <p>[키즈] 베이직 남아 반팔 폴로</p>
+                                            <span class="price">55,300 won</span>
+                                            <span class="prices">79.000 won</span>
+                                        </div>
+                                    </div>
+                                </a></div>
+                            <div class="sec3-slide"><a href="#">
+                                    <div class="box">
+                                        <div class="img-box">
+                                            <img src="./img/sec3/s17.webp" alt="">
+                                            <p>+ 1 colour</p>
+                                        </div>
+                                        <div class="box_">
+                                            <span class="color">30% 세일</span>
+                                            <p>[키즈] 베이직 남아 반팔 폴로</p>
+                                            <span class="price">55,300 won</span>
+                                            <span class="prices">79.000 won</span>
+                                        </div>
+                                    </div>
+                                </a></div>
+                            <div class="sec3-slide"><a href="#">
+                                    <div class="box">
+                                        <div class="img-box">
+                                            <img src="./img/sec3/s18.webp" alt="">
+                                            <p>+ 1 colour</p>
+                                        </div>
+                                        <div class="box_">
+                                            <span class="color">30% 세일</span>
+                                            <p>[키즈] 스트라이프 집업 퀼팅 코튼 테디 자켓</p>
+                                            <span class="price">111,300 won</span>
+                                            <span class="prices">159.000 won</span>
+                                        </div>
+                                    </div>
+                                </a></div>
+                        </div>
+                        <div class="arrow2">
+                            <img src="../img/slide/arrow-08.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--스포츠-->
+        <div class="section container sec4">
+            <div class="inner1200 sec4-wrap row">
+                <div class="sec4-left cell">
+                    <div><img class="img1 delay01" src="./img/sec4/2.png" alt=""></div>
+                    <div><img class="img2 delay02" src="./img/sec4/1.png" alt=""></div>
+                </div>
+                <div class="sec4-right cell">
+                    <h1>Lacoste Sport Boutique</h1>
+                    <p>최고의 선수로 이루어진 #TeamLacoste 에 의해 인증되고, 테스트를 통해 기능성까지 확인된 라코스테 스포츠 컬렉션을 확인해보세요.</p>
+                    <span class="full-btn"><a href="#">전체보기</a></span>
+                </div>
+            </div>
+        </div>
+        <!--당신만의 라코스테-->
+        <div class="section fp-auto-height sec5">
+            <div class="sec5-wrap">
+                <div class="sec5-box">
+                    <img src="./img/sec5/1.webp" alt="">
+                    <span class="full-btn"><a href="#">경이로운 편안함</a></span>
+                </div>
+                <div class="sec5-box">
+                    <img src="./img/sec5/2.webp" alt="">
+                    <span class="full-btn"><a href="#">남성 신상품</a></span>
+                </div>
+                <div class="sec5-box">
+                    <img src="./img/sec5/3.webp" alt="">
+                    <span class="full-btn"><a href="#">여성 신상품</a></span>
+                </div>
+                <div class="sec5-box">
+                    <img src="./img/sec5/4.webp" alt="">
+                    <span class="full-btn"><a href="#">라코스테 키즈</a></span>
+                </div>
+                <div class="sec5-box">
+                    <img src="./img/sec5/5.webp" alt="">
+                    <span class="full-btn"><a href="#">라코스테 스포츠</a></span>
+                </div>
+                <div class="sec5-box">
+                    <img src="./img/sec5/6.webp" alt="">
+                    <span class="full-btn"><a href="#">라코스테 라이브</a></span>
+                </div>
+            </div>
+        </div>
+        <!--푸터-->
+        <div class="section fp-auto-height footer">
+            <div class="footer1">
+                <ul class="inner1200 row">
+                    <li class="footer1-box cell"><a href="#">
+                            <img src="./img/footer/icon-06.png" alt="">
+                            <p>매장찾기</p>
+                        </a></li>
+                    <li class="footer1-box cell"><a href="#">
+                            <img src="./img/footer/icon-07.png" alt="">
+
+                            <p>무료배송</p>
+                        </a></li>
+                    <li class="footer1-box cell"><a href="#">
+                            <img src="./img/footer/icon-08.png" alt="">
+
+                            <p>무료반품</p>
+                        </a></li>
+                    <li class="footer1-box cell"><a href="#">
+                            <img src="./img/footer/icon-09.png" alt="">
+                            <p>안전결제</p>
+                        </a></li>
+                    <li class="footer1-box cell"><a href="#">
+                            <img src="./img/footer/icon-10.png" alt="">
+                            <p>Q&#38;A</p>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="footer2">
+                <div class="inner1200">
+                    <ul class="row">
+                        <li class="cell"><a href="#">사이트맵</a></li>
+                        <li class="cell"><a href="#">법적 고지</a></li>
+                        <li class="cell"><a href="#">이용약관</a></li>
+                        <li class="cell"><a href="#">개인정보처리방침</a></li>
+                        <li class="cell"><a href="#">사이즈</a></li>
+                        <li class="cell"><a href="#">가이드</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer3">
+                <div class="inner1200 row">
+                    <div class="calc-6 cell">
+                        대표이사 : 배재현<br>
+                        주소 : 서울특별시강남구대치동944-1 정헌빌딩<br>
+                        사업자등록번호 : 120-86-05491<br>사업자정보확인<br>
+                        통신판매업신고번호제 : 2011-서울강남-01501호135-846<br>
+                        개인정보관리책임자 : 송현귀 CUSTOMER SERVICE TEL 1588-9619<br>
+                        (주)동일드방레
+                    </div>
+                    <ul class="calc-3 cell">
+                        <li class=""><a href="#">도움말 및 연락처</a></li>
+                        <li class=""><a href="#">고객센터</a></li>
+                        <li class=""><a href="#">1588-9619</a></li>
+                        <li class=""><a href="#">1:1 문의하기</a></li>
+                        <li class=""><a href="#">FAQ</a></li>
+                    </ul>
+                    <div class="calc-3 cell">
+                        <h1>LACOSTE KAKAO FRIEND</h1>
+                        <p>라코스테 카카오 플러스 친구가 되시면 다양한 쇼핑정보 및 혜택을 받아보실 수 있습니다.</p>
+                        <span class="full-btn"><a href="#">등록하기</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body></html>
