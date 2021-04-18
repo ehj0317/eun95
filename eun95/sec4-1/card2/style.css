@@ -1,0 +1,134 @@
+/*노멀라이징*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.row::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.cell {
+    float: left;
+}
+
+/*폰트설정*/
+
+@font-face {
+    font-family: 'NotoSansKR';
+    src: local(※), url(../font/NotoSansKR-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'YesevaOne';
+    src: local(※), url(../font/YesevaOne-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'lato';
+    src: local(※), url(../font/Lato-Thin.ttf) format('truetype');
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'NotoSansKR';
+    background-color: #f0f0f0;
+}
+
+.cardnews{
+    width: 1920px;
+    position: relative;
+}
+
+.title{
+    width: 40%;
+    height: 1000px;
+    background-color: #1D1D1D;
+        margin-bottom: 64px;
+    box-sizing: border-box;
+    padding: 130px 0 0 260px;
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.title h2 {
+    color: #93a2ac;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.title h3 {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.title h4 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+.main{
+    width: 60%;
+    height: 1000px;
+    margin-bottom: 64px;
+    opacity: .7;
+}
+
+.main img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calc4-box{
+    height: 1100px;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.calc4{
+    width: calc((100% - 96px) / 4);
+    height: 500px;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.2);
+    margin-right: 32px;
+    margin-top: 32px;
+}
+
+.calc4:nth-child(4n){
+    margin-right: 0;
+}
+
+.calc4 img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
