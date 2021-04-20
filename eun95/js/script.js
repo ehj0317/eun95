@@ -1,9 +1,9 @@
 $(document).ready(function () {
 
-    //링크 끄기
-    $(document).on('click', 'a[href="#"]', function (e) {
-        e.preventDefault();
-    });
+//     //링크 끄기
+//     $(document).on('click', 'a[href="#"]', function (e) {
+//         e.preventDefault();
+//     });
 
     //sec0 - 햄버거 아이콘
     $(".icon-menu").click(function () {
