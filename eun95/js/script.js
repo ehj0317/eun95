@@ -11,7 +11,7 @@ $(document).ready(function () {
         $(".side2").addClass("active");
     });
 
-    $("a,.scroll").click(function (event) {
+    $(".scroll").click(function (event) {
         event.preventDefault();
         $('html,body').animate({
             scrollTop: $(this.hash).offset().top
