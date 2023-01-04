@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+
     //sec0 - 햄버거 아이콘
     $(".icon-menu").click(function () {
         $(".icon-menu").toggleClass("active");
@@ -69,6 +70,13 @@ $(document).ready(function () {
         arrow: false,
         centerMode: true,
         focusOnSelect: true
+    });
+    //sec3 - detail page
+    $(".tlogo-main2>ul>li").on("click", function () {
+        var idx = $(".tlogo-main2>ul>li").index(this); //idx = 클릭한 li가 몇번째 요소인지
+        $(".tlogo-main2 .b-img-box>div.b-img2").stop().fadeOut("fast"); //모든 .bk 끄기
+        $(".tlogo-main2 .b-img-box>div.b-img2").eq(idx).stop().fadeIn("fast"); //.bk 중에 idx와 같은 순서의 요소 fadeIn.
+        return false;
     });
 
     //sec4 - graphic
@@ -214,11 +222,7 @@ $(document).ready(function () {
 
         .addTo(controller) // 컨트롤러 등록
         .addIndicators({ // 트리거 인디케이터 이름지정 및 등록
-            name: "첫번째",
-            colorTrigger: "rgba(0,0,0,0)", //트리거 팁 색상
-            colorStart: "rgba(0,0,0,0)", //스타트 팁 색상
-            colorEnd: "rgba(0,0,0,0)", //종료 팁 색상
-            indent: 40 //우측 스크롤바부터 얼마나 떨어뜨릴지
+            name: "첫번째"
         });
 
     var scene1 = new ScrollMagic.Scene({
@@ -231,11 +235,7 @@ $(document).ready(function () {
         })
         .addTo(controller) // 컨트롤러 등록
         .addIndicators({ // 트리거 인디케이터 이름지정 및 등록
-            name: "두번째",
-            colorTrigger: "rgba(0,0,0,0)", //트리거 팁 색상
-            colorStart: "rgba(0,0,0,0)", //스타트 팁 색상
-            colorEnd: "rgba(0,0,0,0)", //종료 팁 색상
-            indent: 40 //우측 스크롤바부터 얼마나 떨어뜨릴지
+            name: "두번째"
         });
 
     var scene1 = new ScrollMagic.Scene({
@@ -248,11 +248,7 @@ $(document).ready(function () {
         })
         .addTo(controller) // 컨트롤러 등록
         .addIndicators({ // 트리거 인디케이터 이름지정 및 등록
-            name: "세번째",
-            colorTrigger: "rgba(0,0,0,0)", //트리거 팁 색상
-            colorStart: "rgba(0,0,0,0)", //스타트 팁 색상
-            colorEnd: "rgba(0,0,0,0)", //종료 팁 색상
-            indent: 40 //우측 스크롤바부터 얼마나 떨어뜨릴지
+            name: "세번째"
         });
 
     var scene1 = new ScrollMagic.Scene({
@@ -265,11 +261,7 @@ $(document).ready(function () {
         })
         .addTo(controller) // 컨트롤러 등록
         .addIndicators({ // 트리거 인디케이터 이름지정 및 등록
-            name: "네번째",
-            colorTrigger: "rgba(0,0,0,0)", //트리거 팁 색상
-            colorStart: "rgba(0,0,0,0)", //스타트 팁 색상
-            colorEnd: "rgba(0,0,0,0)", //종료 팁 색상
-            indent: 40 //우측 스크롤바부터 얼마나 떨어뜨릴지
+            name: "네번째"
         });
 
     var scene1 = new ScrollMagic.Scene({
@@ -282,11 +274,7 @@ $(document).ready(function () {
         })
         .addTo(controller) // 컨트롤러 등록
         .addIndicators({ // 트리거 인디케이터 이름지정 및 등록
-            name: "네번째",
-            colorTrigger: "rgba(0,0,0,0)", //트리거 팁 색상
-            colorStart: "rgba(0,0,0,0)", //스타트 팁 색상
-            colorEnd: "rgba(0,0,0,0)", //종료 팁 색상
-            indent: 40 //우측 스크롤바부터 얼마나 떨어뜨릴지
+            name: "네번째"
         });
 
     var scene1 = new ScrollMagic.Scene({
@@ -299,11 +287,7 @@ $(document).ready(function () {
         })
         .addTo(controller) // 컨트롤러 등록
         .addIndicators({ // 트리거 인디케이터 이름지정 및 등록
-            name: "다섯번째",
-            colorTrigger: "rgba(0,0,0,0)", //트리거 팁 색상
-            colorStart: "rgba(0,0,0,0)", //스타트 팁 색상
-            colorEnd: "rgba(0,0,0,0)", //종료 팁 색상
-            indent: 40 //우측 스크롤바부터 얼마나 떨어뜨릴지
+            name: "다섯번째"
         });
 
 });
