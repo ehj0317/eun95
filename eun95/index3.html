@@ -6,22 +6,32 @@
     <!--JS CSS-->
     <script src="https://ehj0317.github.io/eun95/eun95/js/jquery-3.5.1.js"></script>
     <!--SLICK SLIDE-->
-    <link rel="stylesheet" href="https://ehj0317.github.io/eun95/eun95/css/slick-theme.css" />
-    <link rel="stylesheet" href="https://ehj0317.github.io/eun95/eun95/css/slick.css" />
+    <link
+      rel="stylesheet"
+      href="https://ehj0317.github.io/eun95/eun95/css/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ehj0317.github.io/eun95/eun95/css/slick.css"
+    />
     <script src="https://ehj0317.github.io/eun95/eun95/js/slick.js"></script>
     <!--swipe slider-->
-    <link rel="stylesheet" href="https://ehj0317.github.io/eun95/eun95//css/swiper.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://ehj0317.github.io/eun95/eun95//css/swiper.min.css"
+    />
     <script src="https://ehj0317.github.io/eun95/eun95//js/swiper.min.js"></script>
     <!--FONTAWESOME-->
-    <link rel="stylesheet" href="https://ehj0317.github.io/eun95/eun95/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://ehj0317.github.io/eun95/eun95/css/all.min.css"
+    />
     <script src="https://ehj0317.github.io/eun95/eun95/js/all.min.js"></script>
-    <!--스크롤 매직-->
-    <script src="https://ehj0317.github.io/eun95/eun95/js/gsap.min.js"></script>
-    <script src="https://ehj0317.github.io/eun95/eun95/js/ScrollMagic.min.js"></script>
-    <script src="https://ehj0317.github.io/eun95/eun95/js/debug.addIndicators.min.js"></script>
-    <script src="https://ehj0317.github.io/eun95/eun95/js/animation.gsap.min.js"></script>
     <!--CSS-->
-    <link rel="stylesheet" href="https://ehj0317.github.io/eun95/eun95/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://ehj0317.github.io/eun95/eun95/css/style.css"
+    />
     <!--JS-->
     <script src="https://ehj0317.github.io/eun95/eun95/js/script.js"></script>
 
@@ -29,374 +39,439 @@
       *:focus {
         outline: none;
       }
+      /*sec4 -굿즈*/
+      .goods {
+        width: 100%;
+        height: 700px;
+        background-color: transparent;
+        position: relative;
+      }
+
+      .goods .title-left {
+        width: 20%;
+        height: 100%;
+      }
+
+      .goods .title-left p:nth-child(1) {
+        color: #fff;
+        font-size: 2.2rem;
+        font-weight: 600;
+        margin-bottom: 6px;
+        padding-top: 150px;
+        box-sizing: border-box;
+      }
+
+      .goods .title-left p:nth-child(2) {
+        color: #93a2ac;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+
+      .goods .title-left p:nth-child(3) {
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 16px;
+      }
+
+      .swiper-container {
+        width: 100%;
+        height: 72%;
+        position: absolute;
+        top: 10%;
+        right: 0;
+      }
+
+      .book > .swiper-container > .siwper-wrapper {
+        height: 95%;
+      }
+
+      .swiper-slide {
+        align-items: center;
+        box-shadow: none;
+      }
+
+      .swiper-button-next,
+      .swiper-button-prev {
+        color: #fff;
+        top: 45%;
+      }
+
+      .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+        background: #fff;
+      }
+
+      .swiper-pagination {
+        bottom: 0;
+        top: 32px;
+      }
+
+      .swiper-pagination-progressbar {
+        background: rgba(255, 255, 255, 0.25);
+      }
+
+      .swiper-container-horizontal > .swiper-pagination-progressbar,
+      .swiper-container-vertical
+        > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+        width: 100%;
+        height: 4px;
+        left: 0;
+        top: 495px;
+      }
+
+      .gimg-box1 {
+        width: calc((100% - 12px) / 2);
+        height: calc(33% - 12px);
+        margin-bottom: 12px;
+        box-shadow: 4px 4px 4px rgb(0 0 0 / 20%);
+        position: relative;
+      }
+
+      .gimg-box2 {
+        width: 100%;
+        height: calc(66% - 12px);
+        box-shadow: 4px 4px 4px rgb(0 0 0 / 20%);
+        position: relative;
+      }
+
+      .gimg-box3 {
+        width: 100%;
+        height: calc(45% - 12px);
+        margin-bottom: 12px;
+        box-shadow: 4px 4px 4px rgb(0 0 0 / 20%);
+        position: relative;
+      }
+
+      .gimg-box4 {
+        width: 100%;
+        height: calc(55% - 12px);
+        box-shadow: 4px 4px 4px rgb(0 0 0 / 20%);
+        position: relative;
+      }
+
+      .gimg-box5 {
+        width: 100%;
+        height: calc(66% - 12px);
+        margin-bottom: 12px;
+        box-shadow: 4px 4px 4px rgb(0 0 0 / 20%);
+        position: relative;
+      }
+
+      .gimg-box6 {
+        width: calc((100% - 12px) / 2);
+        height: calc(33% - 12px);
+        box-shadow: 4px 4px 4px rgb(0 0 0 / 20%);
+        position: relative;
+      }
+
+      .gimg-box7 {
+        width: 30%;
+        height: calc(33% - 12px);
+        margin-bottom: 12px;
+        box-shadow: 4px 4px 4px rgb(0 0 0 / 20%);
+        position: relative;
+      }
+
+      .gimg-box8 {
+        width: calc(70% - 12px);
+        height: calc(33% - 12px);
+        box-shadow: 4px 4px 4px rgb(0 0 0 / 20%);
+        position: relative;
+      }
+
+      .gimg-box9 {
+        width: 100%;
+        height: calc(66% - 12px);
+        margin-bottom: 12px;
+        box-shadow: 4px 4px 4px rgb(0 0 0 / 20%);
+        position: relative;
+      }
+
+      .gimg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 1;
+        transition: 0.2s ease-in;
+      }
+
+      .gimg.active {
+        opacity: 0;
+      }
+
+      .gimg-hover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: border-box;
+        padding: 10px;
+      }
+
+      .gimg-hover p {
+        font-size: 1px;
+      }
+
+      .gimg-hover h1 {
+        margin-top: -4px;
+        font-size: 16px;
+        font-weight: 600;
+      }
     </style>
   </head>
 
-  <body> 
-<div class="book" style="height:140px;">
-          <div class="inner1400">
-            <div class="title-left">
-              <p>Bookcover</p>
-              <p>2018 - 2022</p>
-              <p>
-                <span style="font-weight: 600; padding-right: 16px">Tool</span
-                ><span>Photoshop Illustrator</span>
-              </p>
-            </div>
-
-            <div class="bookcover-main row" style="height:auto;">
-              <div class="bookcover-bg"></div>
-              <div class="b-book-wrap cell">
-                <div id="rotate">360° Showcase</div>
-                <div class="b-book-box" style="display: block">
-                  <div id="book" class="view-cover">
-                    <div class="book-main">
-                      <div class="book-font">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b0-01.png" alt="" />
-                      </div>
-                      <div class="book-back">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b3-01.png" alt="" />
-                      </div>
-                      <div class="book-bone">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b2-01.png" alt="" />
-                      </div>
-                      <div class="book-right"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="b-book-box">
-                  <div id="book" class="view-cover">
-                    <div class="book-main">
-                      <div class="book-font">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b0-02.png" alt="" />
-                      </div>
-                      <div class="book-back">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b3-02.png" alt="" />
-                      </div>
-                      <div class="book-bone">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b2-02.png" alt="" />
-                      </div>
-                      <div class="book-right"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="b-book-box">
-                  <div id="book" class="view-cover">
-                    <div class="book-main">
-                      <div class="book-font">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b0-03.png" alt="" />
-                      </div>
-                      <div class="book-back">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b3-03.png" alt="" />
-                      </div>
-                      <div class="book-bone">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b2-03.png" alt="" />
-                      </div>
-                      <div class="book-right"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="b-book-box">
-                  <div id="book" class="view-cover">
-                    <div class="book-main">
-                      <div class="book-font">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b0-04.png" alt="" />
-                      </div>
-                      <div class="book-back">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b3-04.png" alt="" />
-                      </div>
-                      <div class="book-bone">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b2-04.png" alt="" />
-                      </div>
-                      <div class="book-right"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="b-book-box">
-                  <div id="book" class="view-cover">
-                    <div class="book-main">
-                      <div class="book-font">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b0-05.png" alt="" />
-                      </div>
-                      <div class="book-back">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b3-05.png" alt="" />
-                      </div>
-                      <div class="book-bone">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b2-05.png" alt="" />
-                      </div>
-                      <div class="book-right"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="b-book-box">
-                  <div id="book" class="view-cover">
-                    <div class="book-main">
-                      <div class="book-font">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-06.png" alt="" />
-                      </div>
-                      <div class="book-back">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b3-06.png" alt="" />
-                      </div>
-                      <div class="book-bone">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b2-06.png" alt="" />
-                      </div>
-                      <div class="book-right"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="b-book-box">
-                  <div id="book" class="view-cover">
-                    <div class="book-main">
-                      <div class="book-font">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b0-07.png" alt="" />
-                      </div>
-                      <div class="book-back">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b3-07.png" alt="" />
-                      </div>
-                      <div class="book-bone">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b2-07.png" alt="" />
-                      </div>
-                      <div class="book-right"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="b-book-box">
-                  <div id="book" class="view-cover">
-                    <div class="book-main">
-                      <div class="book-font">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b0-08.png" alt="" />
-                      </div>
-                      <div class="book-back">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b3-08.pn" alt="" />
-                      </div>
-                      <div class="book-bone">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b2-08.pn" alt="" />
-                      </div>
-                      <div class="book-right"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="b-book-box">
-                  <div id="book" class="view-cover">
-                    <div class="book-main">
-                      <div class="book-font">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b0-09.png" alt="" />
-                      </div>
-                      <div class="book-back">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b3-09.png" alt="" />
-                      </div>
-                      <div class="book-bone">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b2-09.png" alt="" />
-                      </div>
-                      <div class="book-right"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="b-book-box">
-                  <div id="book" class="view-cover">
-                    <div class="book-main">
-                      <div class="book-font">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b0-10.png" alt="" />
-                      </div>
-                      <div class="book-back">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b3-10.png" alt="" />
-                      </div>
-                      <div class="book-bone">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b2-10.png" alt="" />
-                      </div>
-                      <div class="book-right"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="b-book-box">
-                  <div id="book" class="view-cover">
-                    <div class="book-main">
-                      <div class="book-font">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b0-11.png" alt="" />
-                      </div>
-                      <div class="book-back">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b3-11.png" alt="" />
-                      </div>
-                      <div class="book-bone">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b2-11.png" alt="" />
-                      </div>
-                      <div class="book-right"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="b-book-box">
-                  <div id="book" class="view-cover">
-                    <div class="book-main">
-                      <div class="book-font">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b0-12.png" alt="" />
-                      </div>
-                      <div class="book-back">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b3-12.png" alt="" />
-                      </div>
-                      <div class="book-bone">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b2-12.png" alt="" />
-                      </div>
-                      <div class="book-right"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="b-book-box">
-                  <div id="book" class="view-cover">
-                    <div class="book-main">
-                      <div class="book-font">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b0-13.png" alt="" />
-                      </div>
-                      <div class="book-back">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b3-13.png" alt="" />
-                      </div>
-                      <div class="book-bone">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b2-13.png" alt="" />
-                      </div>
-                      <div class="book-right"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="b-book-box">
-                  <div id="book" class="view-cover">
-                    <div class="book-main">
-                      <div class="book-font">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b0-14.png" alt="" />
-                      </div>
-                      <div class="book-back">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b3-14.png" alt="" />
-                      </div>
-                      <div class="book-bone">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b2-14.png" alt="" />
-                      </div>
-                      <div class="book-right"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="b-book-box">
-                  <div id="book" class="view-cover">
-                    <div class="book-main">
-                      <div class="book-font">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b0-15.png" alt="" />
-                      </div>
-                      <div class="book-back">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b3-15.png" alt="" />
-                      </div>
-                      <div class="book-bone">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b2-15.png" alt="" />
-                      </div>
-                      <div class="book-right"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="b-book-box">
-                  <div id="book" class="view-cover">
-                    <div class="book-main">
-                      <div class="book-font">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b0-16.png" alt="" />
-                      </div>
-                      <div class="book-back">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b3-16.png" alt="" />
-                      </div>
-                      <div class="book-bone">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b2-16.png" alt="" />
-                      </div>
-                      <div class="book-right"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="b-book-box">
-                  <div id="book" class="view-cover">
-                    <div class="book-main">
-                      <div class="book-font">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b0-17.png" alt="" />
-                      </div>
-                      <div class="book-back">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b3-17.png" alt="" />
-                      </div>
-                      <div class="book-bone">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b2-17.png" alt="" />
-                      </div>
-                      <div class="book-right"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="b-book-box">
-                  <div id="book" class="view-cover">
-                    <div class="book-main">
-                      <div class="book-font">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b0-18.png" alt="" />
-                      </div>
-                      <div class="book-back">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b3-18.png" alt="" />
-                      </div>
-                      <div class="book-bone">
-                        <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b2-18.png" alt="" />
-                      </div>
-                      <div class="book-right"></div>
-                    </div>
-                  </div>
-                </div>
+  <body>
+    <!--굿즈-->
+    <div class="goods">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="width: 30%">
+            <div class="gimg-box gimg-box3">
+              <div
+                class="gimg-hover"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/13.png);
+                "
+              >
+                <p>2022</p>
+                <h1>#카드홀더</h1>
               </div>
-              <ul class="s-book-box row cell">
-                <li class="s-book cell">
-                  <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-01.png" alt="" />
-                </li>
-                <li class="s-book cell">
-                  <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-02.png" alt="" />
-                </li>
-                <li class="s-book cell">
-                  <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-03.png" alt="" />
-                </li>
-                <li class="s-book cell">
-                  <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-04.png" alt="" />
-                </li>
-                <li class="s-book cell">
-                  <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-05.png" alt="" />
-                </li>
-                <li class="s-book cell">
-                  <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-06.png" alt="" />
-                </li>
-              </ul>
-              <ul class="s-book-box row cell" style="width: 100%">
-                <li class="s-book cell">
-                  <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-07.png" alt="" />
-                </li>
-                <li class="s-book cell">
-                  <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-08.png" alt="" />
-                </li>
-                <li class="s-book cell">
-                  <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-09.png" alt="" />
-                </li>
-                <li class="s-book cell">
-                  <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-10.png" alt="" />
-                </li>
-                <li class="s-book cell">
-                  <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-11.png" alt="" />
-                </li>
-                <li class="s-book cell">
-                  <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-12.png" alt="" />
-                </li>
-                <li class="s-book cell">
-                  <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-13.png" alt="" />
-                </li>
-                <li class="s-book cell">
-                  <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-14.png" alt="" />
-                </li>
-                <li class="s-book cell">
-                  <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-15.png" alt="" />
-                </li>
-                <li class="s-book cell">
-                  <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-16.png" alt="" />
-                </li>
-                <li class="s-book cell">
-                  <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-17.png" alt="" />
-                </li>
-                <li class="s-book cell">
-                  <img src="https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-4/b1-18.png" alt="" />
-                </li>
-              </ul>
+              <div
+                class="gimg"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/13-1.png);
+                "
+              ></div>
+            </div>
+            <div class="gimg-box gimg-box4">
+              <div
+                class="gimg-hover"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/12.jpg);
+                "
+              >
+                <p>2022</p>
+                <h1>#바인더</h1>
+              </div>
+              <div
+                class="gimg"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/12-1.jpg);
+                "
+              ></div>
+            </div>
+          </div>
+          <div class="swiper-slide" style="width: 40%">
+            <div class="gimg-box gimg-box1 cell" style="margin-right: 12px">
+              <div
+                class="gimg-hover"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/1.jpg);
+                "
+              >
+                <p>2017</p>
+                <h1>#에폭시 자석</h1>
+              </div>
+              <div
+                class="gimg"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/1-1.jpg);
+                "
+              ></div>
+            </div>
+            <div class="gimg-box gimg-box1 cell">
+              <div
+                class="gimg-hover"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/11.jpg);
+                "
+              >
+                <p>2018</p>
+                <h1>#실링 스탬프</h1>
+              </div>
+              <div
+                class="gimg"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/11-1.jpg);
+                "
+              ></div>
+            </div>
+            <div class="gimg-box gimg-box2 cell">
+              <div
+                class="gimg-hover"
+                style="
+                  color: #fff;
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/2.jpg);
+                "
+              >
+                <p>2020</p>
+                <h1>#바인더</h1>
+              </div>
+              <div
+                class="gimg"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/2-1.jpg);
+                "
+              ></div>
+            </div>
+          </div>
+          <div class="swiper-slide" style="width: 30%">
+            <div class="gimg-box gimg-box3 cell">
+              <div
+                class="gimg-hover"
+                style="
+                  color: #fff;
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/3.jpg);
+                "
+              >
+                <p>2020</p>
+                <h1>#엽서앨범</h1>
+              </div>
+              <div
+                class="gimg"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/3-1.jpg);
+                "
+              ></div>
+            </div>
+            <div class="gimg-box gimg-box4 cell">
+              <div
+                class="gimg-hover"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/4.jpg);
+                "
+              >
+                <p>2017</p>
+                <h1>#연하장</h1>
+              </div>
+              <div
+                class="gimg"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/4-1.jpg);
+                "
+              ></div>
+            </div>
+          </div>
+          <div class="swiper-slide" style="width: 50%">
+            <div class="gimg-box gimg-box5 cell">
+              <div
+                class="gimg-hover"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/5.jpg);
+                "
+              >
+                <p>2019</p>
+                <h1>#탁상 달력</h1>
+              </div>
+              <div
+                class="gimg"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/5-1.jpg);
+                "
+              ></div>
+            </div>
+            <div class="gimg-box gimg-box6 cell" style="margin-right: 12px">
+              <div
+                class="gimg-hover"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/6.jpg);
+                "
+              >
+                <p>2019</p>
+                <h1>#토이페이퍼</h1>
+              </div>
+              <div
+                class="gimg"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/6-1.jpg);
+                "
+              ></div>
+            </div>
+            <div class="gimg-box gimg-box6 cell">
+              <div
+                class="gimg-hover"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/66.png);
+                "
+              >
+                <p>2019</p>
+                <h1>#엽서</h1>
+              </div>
+              <div
+                class="gimg"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/66-1.png);
+                "
+              ></div>
+            </div>
+          </div>
+          <div class="swiper-slide" style="width: 25%">
+            <div class="gimg-box gimg-box7 cell" style="margin-right: 12px">
+              <div
+                class="gimg-hover"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/7.jpg);
+                "
+              >
+                <p>2018</p>
+                <h1 style="font-size: 8px">#투명카드</h1>
+              </div>
+              <div
+                class="gimg"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/7-1.jpg);
+                "
+              ></div>
+            </div>
+            <div class="gimg-box gimg-box8 cell">
+              <div
+                class="gimg-hover"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/8.jpg);
+                "
+              >
+                <p>2018</p>
+                <h1>#스티커</h1>
+              </div>
+              <div
+                class="gimg"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/8-1.jpg);
+                "
+              ></div>
+            </div>
+            <div class="gimg-box gimg-box9 cell">
+              <div
+                class="gimg-hover"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/9.jpg);
+                "
+              >
+                <p>2018</p>
+                <h1>#명함</h1>
+              </div>
+              <div
+                class="gimg"
+                style="
+                  background-image: url(https://ehj0317.github.io/eun95/eun95/img/sec4/sec4-5/9-1.jpg);
+                "
+              ></div>
             </div>
           </div>
         </div>
-</body>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </body>
 </html>
